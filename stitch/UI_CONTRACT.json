@@ -1,0 +1,588 @@
+[
+  {
+    "screenId": "e4d0204ea8d84e49a225994ae2b5188c",
+    "screenTitle": "Insights - Tag Pebble",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 126
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 130
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 134
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 140
+      },
+      {
+        "type": "link",
+        "label": "help",
+        "href": "#",
+        "line": 144
+      },
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 296
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 300
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 304
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 108
+      },
+      {
+        "type": "button",
+        "label": "New Record",
+        "line": 121
+      },
+      {
+        "type": "button",
+        "label": "Export Summary",
+        "line": 159
+      },
+      {
+        "type": "button",
+        "label": "filter_list",
+        "line": 163
+      },
+      {
+        "type": "button",
+        "label": "Review Tags",
+        "line": 175
+      },
+      {
+        "type": "button",
+        "label": "more_horiz",
+        "line": 254
+      },
+      {
+        "type": "button",
+        "label": "View All Logs",
+        "line": 290
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 126
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 130
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 134
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 140
+      },
+      {
+        "type": "link",
+        "label": "help",
+        "href": "#",
+        "line": 144
+      },
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 296
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 300
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 304
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 108
+      },
+      {
+        "type": "button",
+        "label": "New Record",
+        "line": 121
+      },
+      {
+        "type": "button",
+        "label": "Export Summary",
+        "line": 159
+      },
+      {
+        "type": "button",
+        "label": "filter_list",
+        "line": 163
+      },
+      {
+        "type": "button",
+        "label": "Review Tags",
+        "line": 175
+      },
+      {
+        "type": "button",
+        "label": "more_horiz",
+        "line": 254
+      },
+      {
+        "type": "button",
+        "label": "View All Logs",
+        "line": 290
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 15,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "c488a8caf9164820b2767b020608c53a",
+    "screenTitle": "Record Operations - Tag Pebble",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 204
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 208
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 212
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 219
+      },
+      {
+        "type": "link",
+        "label": "help",
+        "href": "#",
+        "line": 223
+      },
+      {
+        "type": "button",
+        "label": "New Record",
+        "line": 198
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 241
+      },
+      {
+        "type": "button",
+        "label": "Status: All",
+        "line": 280
+      },
+      {
+        "type": "button",
+        "label": "Last 30 Days",
+        "line": 284
+      },
+      {
+        "type": "button",
+        "label": "Refresh",
+        "line": 290
+      },
+      {
+        "type": "button",
+        "label": "Export",
+        "line": 293
+      },
+      {
+        "type": "button",
+        "label": "close",
+        "line": 403
+      },
+      {
+        "type": "button",
+        "label": "Edit",
+        "line": 456
+      },
+      {
+        "type": "button",
+        "label": "Retry Load",
+        "line": 471
+      },
+      {
+        "type": "input",
+        "label": "Search records...",
+        "inputType": "text",
+        "placeholder": "Search records...",
+        "line": 239
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 204
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 208
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 212
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 219
+      },
+      {
+        "type": "link",
+        "label": "help",
+        "href": "#",
+        "line": 223
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "New Record",
+        "line": 198
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 241
+      },
+      {
+        "type": "button",
+        "label": "Status: All",
+        "line": 280
+      },
+      {
+        "type": "button",
+        "label": "Last 30 Days",
+        "line": 284
+      },
+      {
+        "type": "button",
+        "label": "Refresh",
+        "line": 290
+      },
+      {
+        "type": "button",
+        "label": "Export",
+        "line": 293
+      },
+      {
+        "type": "button",
+        "label": "close",
+        "line": 403
+      },
+      {
+        "type": "button",
+        "label": "Edit",
+        "line": 456
+      },
+      {
+        "type": "button",
+        "label": "Retry Load",
+        "line": 471
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "Search records...",
+        "inputType": "text",
+        "placeholder": "Search records...",
+        "line": 239
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 15,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "267a65fac5ba4e05bbc8d83af65b2c36",
+    "screenTitle": "Record Editor - Tag Pebble",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 175
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 179
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 183
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 189
+      },
+      {
+        "type": "link",
+        "label": "help",
+        "href": "#",
+        "line": 193
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 158
+      },
+      {
+        "type": "button",
+        "label": "New Record",
+        "line": 170
+      },
+      {
+        "type": "button",
+        "label": "Cancel",
+        "line": 211
+      },
+      {
+        "type": "button",
+        "label": "Record",
+        "line": 214
+      },
+      {
+        "type": "button",
+        "label": "Format JSON",
+        "line": 311
+      },
+      {
+        "type": "button",
+        "label": "Discard Changes",
+        "line": 321
+      },
+      {
+        "type": "button",
+        "label": "Save Record",
+        "line": 324
+      },
+      {
+        "type": "input",
+        "label": "e.g. USER_AUTH_SUCCESS",
+        "inputType": "text",
+        "placeholder": "e.g. USER_AUTH_SUCCESS",
+        "line": 233
+      },
+      {
+        "type": "input",
+        "label": "Provide a detailed description of what this tag represents...",
+        "inputType": "textarea",
+        "placeholder": "Provide a detailed description of what this tag represents...",
+        "line": 244
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 253
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 270
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 295
+      },
+      {
+        "type": "input",
+        "label": "textarea",
+        "inputType": "textarea",
+        "line": 305
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 175
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 179
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 183
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 189
+      },
+      {
+        "type": "link",
+        "label": "help",
+        "href": "#",
+        "line": 193
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 158
+      },
+      {
+        "type": "button",
+        "label": "New Record",
+        "line": 170
+      },
+      {
+        "type": "button",
+        "label": "Cancel",
+        "line": 211
+      },
+      {
+        "type": "button",
+        "label": "Record",
+        "line": 214
+      },
+      {
+        "type": "button",
+        "label": "Format JSON",
+        "line": 311
+      },
+      {
+        "type": "button",
+        "label": "Discard Changes",
+        "line": 321
+      },
+      {
+        "type": "button",
+        "label": "Save Record",
+        "line": 324
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "e.g. USER_AUTH_SUCCESS",
+        "inputType": "text",
+        "placeholder": "e.g. USER_AUTH_SUCCESS",
+        "line": 233
+      },
+      {
+        "type": "input",
+        "label": "Provide a detailed description of what this tag represents...",
+        "inputType": "textarea",
+        "placeholder": "Provide a detailed description of what this tag represents...",
+        "line": 244
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 253
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 270
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 295
+      },
+      {
+        "type": "input",
+        "label": "textarea",
+        "inputType": "textarea",
+        "line": 305
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 18,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]
