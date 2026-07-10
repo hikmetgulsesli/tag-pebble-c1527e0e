@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Insights - Tag Pebble</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-low": "#f2f4f6",
+                        "on-tertiary-fixed-variant": "#773215",
+                        "tertiary": "#924628",
+                        "surface-variant": "#e0e3e5",
+                        "surface-container-high": "#e6e8ea",
+                        "on-error-container": "#93000a",
+                        "on-surface-variant": "#3d4947",
+                        "on-tertiary-fixed": "#370e00",
+                        "outline-variant": "#bcc9c6",
+                        "on-tertiary": "#ffffff",
+                        "on-tertiary-container": "#fffbff",
+                        "primary": "#00685f",
+                        "on-secondary-fixed-variant": "#3a485c",
+                        "primary-fixed-dim": "#6bd8cb",
+                        "secondary-container": "#d5e3fd",
+                        "tertiary-fixed": "#ffdbce",
+                        "on-surface": "#191c1e",
+                        "secondary-fixed-dim": "#b9c7e0",
+                        "surface-container-lowest": "#ffffff",
+                        "outline": "#6d7a77",
+                        "on-primary-fixed": "#00201d",
+                        "error": "#ba1a1a",
+                        "on-background": "#191c1e",
+                        "inverse-on-surface": "#eff1f3",
+                        "on-primary-fixed-variant": "#005049",
+                        "secondary": "#515f74",
+                        "inverse-surface": "#2d3133",
+                        "surface-bright": "#f7f9fb",
+                        "surface-tint": "#006a61",
+                        "surface": "#f7f9fb",
+                        "surface-container-highest": "#e0e3e5",
+                        "primary-container": "#008378",
+                        "on-primary": "#ffffff",
+                        "secondary-fixed": "#d5e3fd",
+                        "tertiary-container": "#b05e3d",
+                        "surface-dim": "#d8dadc",
+                        "background": "#f7f9fb",
+                        "on-secondary-fixed": "#0d1c2f",
+                        "on-secondary-container": "#57657b",
+                        "on-primary-container": "#f4fffc",
+                        "on-secondary": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "surface-container": "#eceef0",
+                        "primary-fixed": "#89f5e7",
+                        "on-error": "#ffffff",
+                        "inverse-primary": "#6bd8cb",
+                        "tertiary-fixed-dim": "#ffb59a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "12px",
+                        "container-padding": "24px",
+                        "row-height-sm": "32px",
+                        "unit": "4px",
+                        "row-height-md": "40px"
+                    },
+                    "fontFamily": {
+                        "mono-label": ["Geist"],
+                        "label-xs": ["Inter"],
+                        "body-md": ["Inter"],
+                        "body-sm": ["Inter"],
+                        "headline-sm": ["Inter"],
+                        "label-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "mono-label": ["12px", { "lineHeight": "16px", "letterSpacing": "0em", "fontWeight": "400" }],
+                        "label-xs": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "500" }],
+                        "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }],
+                        "body-sm": ["13px", { "lineHeight": "18px", "letterSpacing": "0em", "fontWeight": "400" }],
+                        "headline-sm": ["18px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background font-body-md min-h-screen flex">
+<!-- TopAppBar (Mobile Only) -->
+<header class="md:hidden bg-surface-container-lowest dark:bg-surface-dim flex items-center justify-between px-container-padding h-row-height-md w-full fixed top-0 w-full z-50 border-b border-outline-variant dark:border-outline flat no shadows">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary dark:text-primary-fixed-dim" data-icon="dashboard">dashboard</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary dark:text-primary-fixed-dim">Tag Pebble</span>
+</div>
+<button class="font-body-md text-body-md text-primary dark:text-primary-fixed-dim font-medium hover:bg-surface-container-low dark:hover:bg-surface-container-high transition-colors active:opacity-80 transition-opacity px-3 py-1 rounded-DEFAULT">Create Record</button>
+</header>
+<!-- SideNavBar (Desktop Only) -->
+<nav class="hidden md:flex flex-col p-gutter gap-unit w-64 h-full fixed left-0 top-0 bg-surface-container-low dark:bg-surface-container-highest border-r border-outline-variant dark:border-outline flat no shadows">
+<div class="flex items-center gap-3 p-3 mb-4">
+<div class="w-10 h-10 rounded-full bg-surface-variant flex items-center justify-center text-on-surface-variant font-bold font-headline-sm overflow-hidden border border-outline-variant">
+<img class="w-full h-full object-cover" data-alt="A small, professional avatar image of a user profile for a dense metadata management tool. The aesthetic is clean, light mode, and minimal. High quality, crisp resolution, subtle professional lighting, grey tones with a hint of emerald green." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKGjkPg8NTj48YbGiJQcaAYsYYPXWazdFCgjYBAaMozE6HoFmNv-TuQhCiHn9yVhcEoZ25Iq1sO8vuq1SHkdURCkjAr9DRZ14BvNZllVz74MoCTpKUtgK9oEewRuZxiUyWuQj9UG_xU-ObG5piaDOQ0klQ119vkhkpEavrUO6386h9fETNRJTla816ieareyIA5xrNIdN5TOEQ4P_5fImDe_4kNexY-rMrj28fXdTkiLwUCsj_fDpUdmVX9JIq8BhS_HnpHy_60iCO"/>
+</div>
+<div>
+<h1 class="font-headline-sm text-headline-sm font-bold text-primary dark:text-primary-fixed-dim">Tag Pebble</h1>
+<p class="font-label-xs text-label-xs text-on-surface-variant">Management Console</p>
+</div>
+</div>
+<button class="bg-primary text-on-primary font-label-md text-label-md h-[36px] rounded-lg mb-6 flex items-center justify-center gap-2 hover:bg-primary-container transition-colors shadow-sm w-full mx-auto max-w-[200px]">
+<span class="material-symbols-outlined text-[18px]" data-icon="add">add</span>
+            New Record
+        </button>
+<div class="flex-1 flex flex-col gap-1">
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-on-surface-variant hover:bg-surface-container-high dark:hover:bg-on-surface-variant rounded-lg font-label-md text-label-md transition-colors active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="settings_input_component">settings_input_component</span>
+                Operations
+            </a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-on-surface-variant hover:bg-surface-container-high dark:hover:bg-on-surface-variant rounded-lg font-label-md text-label-md transition-colors active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="edit_note">edit_note</span>
+                Editor
+            </a>
+<a class="flex items-center gap-3 px-3 py-2 bg-secondary-container dark:bg-on-secondary-fixed-variant text-on-secondary-container dark:text-secondary-fixed font-bold rounded-lg font-label-md text-label-md transition-colors active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="analytics" style="font-variation-settings: 'FILL' 1;">analytics</span>
+                Insights
+            </a>
+</div>
+<div class="mt-auto flex flex-col gap-1 pt-4 border-t border-outline-variant">
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-on-surface-variant hover:bg-surface-container-high dark:hover:bg-on-surface-variant rounded-lg font-label-md text-label-md transition-colors active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="settings">settings</span>
+                Settings
+            </a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-on-surface-variant hover:bg-surface-container-high dark:hover:bg-on-surface-variant rounded-lg font-label-md text-label-md transition-colors active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="help">help</span>
+                Help
+            </a>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-1 md:ml-64 pt-[calc(var(--row-height-md)+1rem)] md:pt-0 p-container-padding max-w-[1200px] mx-auto w-full">
+<!-- Header Section -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+<div>
+<h2 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-1">Insights Overview</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">System performance and tag distribution analysis.</p>
+</div>
+<div class="flex items-center gap-2">
+<button class="h-[36px] px-4 bg-surface-container-lowest text-secondary border border-outline-variant rounded-DEFAULT font-label-md text-label-md hover:bg-surface-container-low transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]" data-icon="download">download</span>
+                    Export Summary
+                </button>
+<button class="h-[36px] w-[36px] bg-surface-container-lowest text-on-surface-variant border border-outline-variant rounded-DEFAULT flex items-center justify-center hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[20px]" data-icon="filter_list">filter_list</span>
+</button>
+</div>
+</div>
+<!-- Actionable Hints -->
+<div class="bg-surface-container-low border border-outline-variant rounded-lg p-3 mb-6 flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5 text-[20px]" data-icon="lightbulb" style="font-variation-settings: 'FILL' 1;">lightbulb</span>
+<div class="flex-1">
+<p class="font-label-md text-label-md text-on-surface mb-1">Optimization Opportunity</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tip: 5 tags have no category assigned. Categorizing them improves query performance by 12%.</p>
+</div>
+<button class="font-label-xs text-label-xs text-primary hover:text-primary-container uppercase tracking-wider font-semibold">Review Tags</button>
+</div>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+<!-- Metrics Column (Col 1) -->
+<div class="flex flex-col gap-4 lg:col-span-1">
+<!-- Metric 1 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-lg p-4 shadow-sm hover:bg-surface-bright transition-colors">
+<p class="font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider mb-2">Total Tag Volume</p>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">14,285</span>
+<span class="font-label-xs text-label-xs text-primary flex items-center"><span class="material-symbols-outlined text-[12px]" data-icon="arrow_upward">arrow_upward</span> 2.4%</span>
+</div>
+</div>
+<!-- Metric 2 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-lg p-4 shadow-sm hover:bg-surface-bright transition-colors">
+<p class="font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider mb-2">Growth Rate (30d)</p>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">+850</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant">new tags</span>
+</div>
+</div>
+<!-- Metric 3 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-lg p-4 shadow-sm hover:bg-surface-bright transition-colors">
+<p class="font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider mb-2">Most Active Project</p>
+<div class="flex items-center gap-2 mt-1">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Alpha Core Data</span>
+</div>
+</div>
+</div>
+<!-- Visualization Main Area (Col 2 & 3) -->
+<div class="md:col-span-2 lg:col-span-2 flex flex-col gap-4">
+<div class="bg-surface-container-lowest border border-outline-variant rounded-lg p-4 shadow-sm h-full flex flex-col">
+<div class="flex items-center justify-between mb-4">
+<h3 class="font-label-md text-label-md text-on-surface">State Distribution</h3>
+<span class="font-label-xs text-label-xs text-on-surface-variant">By Category</span>
+</div>
+<!-- Compact Bar Chart Simulation -->
+<div class="flex-1 flex flex-col justify-end gap-3 min-h-[200px] mt-2">
+<!-- Bar 1 -->
+<div class="flex items-center gap-3">
+<span class="font-label-xs text-label-xs text-on-surface-variant w-16 text-right truncate">System</span>
+<div class="flex-1 h-4 bg-surface-container-low rounded-sm overflow-hidden">
+<div class="h-full bg-primary rounded-sm" style="width: 75%;"></div>
+</div>
+<span class="font-mono-label text-mono-label text-on-surface w-10 text-right">45%</span>
+</div>
+<!-- Bar 2 -->
+<div class="flex items-center gap-3">
+<span class="font-label-xs text-label-xs text-on-surface-variant w-16 text-right truncate">User Gen</span>
+<div class="flex-1 h-4 bg-surface-container-low rounded-sm overflow-hidden">
+<div class="h-full bg-primary opacity-80 rounded-sm" style="width: 50%;"></div>
+</div>
+<span class="font-mono-label text-mono-label text-on-surface w-10 text-right">30%</span>
+</div>
+<!-- Bar 3 -->
+<div class="flex items-center gap-3">
+<span class="font-label-xs text-label-xs text-on-surface-variant w-16 text-right truncate">Archived</span>
+<div class="flex-1 h-4 bg-surface-container-low rounded-sm overflow-hidden">
+<div class="h-full bg-secondary opacity-60 rounded-sm" style="width: 25%;"></div>
+</div>
+<span class="font-mono-label text-mono-label text-on-surface w-10 text-right">15%</span>
+</div>
+<!-- Bar 4 -->
+<div class="flex items-center gap-3">
+<span class="font-label-xs text-label-xs text-on-surface-variant w-16 text-right truncate">Pending</span>
+<div class="flex-1 h-4 bg-surface-container-low rounded-sm overflow-hidden">
+<div class="h-full bg-outline rounded-sm" style="width: 15%;"></div>
+</div>
+<span class="font-mono-label text-mono-label text-on-surface w-10 text-right">10%</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Activity Feed (Col 4) -->
+<div class="md:col-span-3 lg:col-span-1 bg-surface-container-lowest border border-outline-variant rounded-lg p-4 shadow-sm flex flex-col">
+<div class="flex items-center justify-between mb-4">
+<h3 class="font-label-md text-label-md text-on-surface">Recent Activity</h3>
+<button class="material-symbols-outlined text-on-surface-variant text-[16px] hover:text-on-surface">more_horiz</button>
+</div>
+<div class="flex flex-col gap-0 relative">
+<!-- Vertical Line connecting events -->
+<div class="absolute left-[9px] top-2 bottom-4 w-[1px] bg-outline-variant"></div>
+<!-- Event 1 -->
+<div class="flex items-start gap-3 py-2 relative bg-surface-container-lowest hover:bg-surface-bright transition-colors px-1 -mx-1 rounded-sm">
+<div class="w-5 h-5 rounded-full bg-surface-container-lowest border-2 border-primary flex items-center justify-center z-10 mt-0.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+</div>
+<div class="flex-1">
+<p class="font-body-sm text-body-sm text-on-surface leading-tight"><span class="font-medium">Batch Update</span> completed</p>
+<p class="font-label-xs text-label-xs text-on-surface-variant mt-1">2 mins ago • System</p>
+</div>
+</div>
+<!-- Event 2 -->
+<div class="flex items-start gap-3 py-2 relative bg-surface-container-lowest hover:bg-surface-bright transition-colors px-1 -mx-1 rounded-sm">
+<div class="w-5 h-5 rounded-full bg-surface-container-lowest border-2 border-outline-variant flex items-center justify-center z-10 mt-0.5">
+<span class="material-symbols-outlined text-[10px] text-outline">add</span>
+</div>
+<div class="flex-1">
+<p class="font-body-sm text-body-sm text-on-surface leading-tight">New tag <span class="bg-surface-container-low px-1 py-0.5 rounded text-[10px] border border-outline-variant font-mono-label">#ui-comp</span> created</p>
+<p class="font-label-xs text-label-xs text-on-surface-variant mt-1">15 mins ago • User_88</p>
+</div>
+</div>
+<!-- Event 3 -->
+<div class="flex items-start gap-3 py-2 relative bg-surface-container-lowest hover:bg-surface-bright transition-colors px-1 -mx-1 rounded-sm">
+<div class="w-5 h-5 rounded-full bg-surface-container-lowest border-2 border-error border-opacity-50 flex items-center justify-center z-10 mt-0.5">
+<span class="material-symbols-outlined text-[10px] text-error">close</span>
+</div>
+<div class="flex-1">
+<p class="font-body-sm text-body-sm text-on-surface leading-tight">Sync error on Project Delta</p>
+<p class="font-label-xs text-label-xs text-on-surface-variant mt-1">1 hr ago • Network</p>
+</div>
+</div>
+</div>
+<button class="mt-auto pt-3 font-label-xs text-label-xs text-primary w-full text-center hover:underline">View All Logs</button>
+</div>
+</div>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 w-full bg-surface-container-lowest dark:bg-surface-dim border-t border-outline-variant dark:border-outline flex items-center justify-around h-16 z-50 flat no shadows">
+<a class="flex flex-col items-center justify-center w-full h-full text-on-surface-variant dark:text-on-surface-variant pb-1" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1" data-icon="settings_input_component">settings_input_component</span>
+<span class="font-label-xs text-label-xs">Operations</span>
+</a>
+<a class="flex flex-col items-center justify-center w-full h-full text-on-surface-variant dark:text-on-surface-variant pb-1" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1" data-icon="edit_note">edit_note</span>
+<span class="font-label-xs text-label-xs">Editor</span>
+</a>
+<a class="flex flex-col items-center justify-center w-full h-full text-primary dark:text-primary-fixed-dim border-b-2 border-primary dark:border-primary-fixed-dim pb-1" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1" data-icon="analytics" style="font-variation-settings: 'FILL' 1;">analytics</span>
+<span class="font-label-xs text-label-xs font-bold">Insights</span>
+</a>
+</nav>
+</body></html>

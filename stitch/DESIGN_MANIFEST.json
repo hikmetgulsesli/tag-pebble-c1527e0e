@@ -1,0 +1,35 @@
+[
+  {
+    "screenId": "e4d0204ea8d84e49a225994ae2b5188c",
+    "title": "Insights - Tag Pebble",
+    "htmlFile": "e4d0204ea8d84e49a225994ae2b5188c.html",
+    "deviceType": "DESKTOP",
+    "htmlUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2VlZWFmOGI2YjhhYzRkYjliMGViM2Y0NTViMDhhNDA4EgsSBxCN19Wi9xcYAZIBJAoKcHJvamVjdF9pZBIWQhQxMDIwMTgzMDU5MDk2MzE5MDE5Ng&filename=&opi=96797242",
+    "localHtml": "/Users/setrox/projects/tag-pebble-c1527e0e/stitch/e4d0204ea8d84e49a225994ae2b5188c.html",
+    "surfaceIds": [
+      "SURF_INSIGHTS"
+    ]
+  },
+  {
+    "screenId": "c488a8caf9164820b2767b020608c53a",
+    "title": "Record Operations - Tag Pebble",
+    "htmlFile": "c488a8caf9164820b2767b020608c53a.html",
+    "deviceType": "DESKTOP",
+    "htmlUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzllMWU1MzQ4MTgyZjQ2MzBiZmFlMTQ3MzY0MjZkZDZlEgsSBxCN19Wi9xcYAZIBJAoKcHJvamVjdF9pZBIWQhQxMDIwMTgzMDU5MDk2MzE5MDE5Ng&filename=&opi=96797242",
+    "localHtml": "/Users/setrox/projects/tag-pebble-c1527e0e/stitch/c488a8caf9164820b2767b020608c53a.html",
+    "surfaceIds": [
+      "SURF_RECORD_OPERATIONS"
+    ]
+  },
+  {
+    "screenId": "267a65fac5ba4e05bbc8d83af65b2c36",
+    "title": "Record Editor - Tag Pebble",
+    "htmlFile": "267a65fac5ba4e05bbc8d83af65b2c36.html",
+    "deviceType": "DESKTOP",
+    "htmlUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2FlMzY1Njc5YTEzZTRjZjg5YjVkZDJlNDlmOTg1Y2JmEgsSBxCN19Wi9xcYAZIBJAoKcHJvamVjdF9pZBIWQhQxMDIwMTgzMDU5MDk2MzE5MDE5Ng&filename=&opi=96797242",
+    "localHtml": "/Users/setrox/projects/tag-pebble-c1527e0e/stitch/267a65fac5ba4e05bbc8d83af65b2c36.html",
+    "surfaceIds": [
+      "SURF_RECORD_EDITOR"
+    ]
+  }
+]

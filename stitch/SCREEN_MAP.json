@@ -1,0 +1,29 @@
+[
+  {
+    "screenId": "e4d0204ea8d84e49a225994ae2b5188c",
+    "name": "Insights - Tag Pebble",
+    "type": "app-screen",
+    "description": "Insights - Tag Pebble screen",
+    "surfaceIds": [
+      "SURF_INSIGHTS"
+    ]
+  },
+  {
+    "screenId": "c488a8caf9164820b2767b020608c53a",
+    "name": "Record Operations - Tag Pebble",
+    "type": "app-screen",
+    "description": "Record Operations - Tag Pebble screen",
+    "surfaceIds": [
+      "SURF_RECORD_OPERATIONS"
+    ]
+  },
+  {
+    "screenId": "267a65fac5ba4e05bbc8d83af65b2c36",
+    "name": "Record Editor - Tag Pebble",
+    "type": "form",
+    "description": "Record Editor - Tag Pebble screen",
+    "surfaceIds": [
+      "SURF_RECORD_EDITOR"
+    ]
+  }
+]
