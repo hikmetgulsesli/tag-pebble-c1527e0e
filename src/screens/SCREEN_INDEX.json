@@ -1,0 +1,299 @@
+[
+  {
+    "screenId": "e4d0204ea8d84e49a225994ae2b5188c",
+    "title": "Insights - Tag Pebble",
+    "componentName": "InsightsTagPebble",
+    "file": "src/screens/InsightsTagPebble.tsx",
+    "buttons": 7,
+    "inputs": 0,
+    "links": 8,
+    "actions": [
+      {
+        "id": "create-record-1",
+        "kind": "button",
+        "label": "Create Record",
+        "index": 0
+      },
+      {
+        "id": "new-record-2",
+        "kind": "button",
+        "label": "New Record",
+        "index": 1
+      },
+      {
+        "id": "export-summary-3",
+        "kind": "button",
+        "label": "Export Summary",
+        "index": 2
+      },
+      {
+        "id": "filter-list-4",
+        "kind": "button",
+        "label": "Filter List",
+        "index": 3
+      },
+      {
+        "id": "review-tags-5",
+        "kind": "button",
+        "label": "Review Tags",
+        "index": 4
+      },
+      {
+        "id": "more-horiz-6",
+        "kind": "button",
+        "label": "more_horiz",
+        "index": 5
+      },
+      {
+        "id": "view-all-logs-7",
+        "kind": "button",
+        "label": "View All Logs",
+        "index": 6
+      },
+      {
+        "id": "operations-1",
+        "kind": "link",
+        "label": "Operations",
+        "href": "#",
+        "index": 0
+      },
+      {
+        "id": "editor-2",
+        "kind": "link",
+        "label": "Editor",
+        "href": "#",
+        "index": 1
+      },
+      {
+        "id": "insights-3",
+        "kind": "link",
+        "label": "Insights",
+        "href": "#",
+        "index": 2
+      },
+      {
+        "id": "settings-4",
+        "kind": "link",
+        "label": "Settings",
+        "href": "#",
+        "index": 3
+      },
+      {
+        "id": "help-5",
+        "kind": "link",
+        "label": "Help",
+        "href": "#",
+        "index": 4
+      },
+      {
+        "id": "operations-6",
+        "kind": "link",
+        "label": "Operations",
+        "href": "#",
+        "index": 5
+      },
+      {
+        "id": "editor-7",
+        "kind": "link",
+        "label": "Editor",
+        "href": "#",
+        "index": 6
+      },
+      {
+        "id": "insights-8",
+        "kind": "link",
+        "label": "Insights",
+        "href": "#",
+        "index": 7
+      }
+    ]
+  },
+  {
+    "screenId": "c488a8caf9164820b2767b020608c53a",
+    "title": "Record Operations - Tag Pebble",
+    "componentName": "RecordOperationsTagPebble",
+    "file": "src/screens/RecordOperationsTagPebble.tsx",
+    "buttons": 9,
+    "inputs": 1,
+    "links": 5,
+    "actions": [
+      {
+        "id": "new-record-1",
+        "kind": "button",
+        "label": "New Record",
+        "index": 0
+      },
+      {
+        "id": "create-record-2",
+        "kind": "button",
+        "label": "Create Record",
+        "index": 1
+      },
+      {
+        "id": "status-all-3",
+        "kind": "button",
+        "label": "Status: All",
+        "index": 2
+      },
+      {
+        "id": "last-30-days-4",
+        "kind": "button",
+        "label": "Last 30 Days",
+        "index": 3
+      },
+      {
+        "id": "refresh-5",
+        "kind": "button",
+        "label": "Refresh",
+        "index": 4
+      },
+      {
+        "id": "export-6",
+        "kind": "button",
+        "label": "Export",
+        "index": 5
+      },
+      {
+        "id": "close-7",
+        "kind": "button",
+        "label": "Close",
+        "index": 6
+      },
+      {
+        "id": "edit-8",
+        "kind": "button",
+        "label": "Edit",
+        "index": 7
+      },
+      {
+        "id": "retry-load-9",
+        "kind": "button",
+        "label": "Retry Load",
+        "index": 8
+      },
+      {
+        "id": "operations-1",
+        "kind": "link",
+        "label": "Operations",
+        "href": "#",
+        "index": 0
+      },
+      {
+        "id": "editor-2",
+        "kind": "link",
+        "label": "Editor",
+        "href": "#",
+        "index": 1
+      },
+      {
+        "id": "insights-3",
+        "kind": "link",
+        "label": "Insights",
+        "href": "#",
+        "index": 2
+      },
+      {
+        "id": "settings-4",
+        "kind": "link",
+        "label": "Settings",
+        "href": "#",
+        "index": 3
+      },
+      {
+        "id": "help-5",
+        "kind": "link",
+        "label": "Help",
+        "href": "#",
+        "index": 4
+      }
+    ]
+  },
+  {
+    "screenId": "267a65fac5ba4e05bbc8d83af65b2c36",
+    "title": "Record Editor - Tag Pebble",
+    "componentName": "RecordEditorTagPebble",
+    "file": "src/screens/RecordEditorTagPebble.tsx",
+    "buttons": 7,
+    "inputs": 2,
+    "links": 5,
+    "actions": [
+      {
+        "id": "create-record-1",
+        "kind": "button",
+        "label": "Create Record",
+        "index": 0
+      },
+      {
+        "id": "new-record-2",
+        "kind": "button",
+        "label": "New Record",
+        "index": 1
+      },
+      {
+        "id": "cancel-3",
+        "kind": "button",
+        "label": "Cancel",
+        "index": 2
+      },
+      {
+        "id": "save-record-4",
+        "kind": "button",
+        "label": "Save Record",
+        "index": 3
+      },
+      {
+        "id": "format-json-5",
+        "kind": "button",
+        "label": "Format JSON",
+        "index": 4
+      },
+      {
+        "id": "discard-changes-6",
+        "kind": "button",
+        "label": "Discard Changes",
+        "index": 5
+      },
+      {
+        "id": "save-record-7",
+        "kind": "button",
+        "label": "Save Record",
+        "index": 6
+      },
+      {
+        "id": "operations-1",
+        "kind": "link",
+        "label": "Operations",
+        "href": "#",
+        "index": 0
+      },
+      {
+        "id": "editor-2",
+        "kind": "link",
+        "label": "Editor",
+        "href": "#",
+        "index": 1
+      },
+      {
+        "id": "insights-3",
+        "kind": "link",
+        "label": "Insights",
+        "href": "#",
+        "index": 2
+      },
+      {
+        "id": "settings-4",
+        "kind": "link",
+        "label": "Settings",
+        "href": "#",
+        "index": 3
+      },
+      {
+        "id": "help-5",
+        "kind": "link",
+        "label": "Help",
+        "href": "#",
+        "index": 4
+      }
+    ]
+  }
+]
